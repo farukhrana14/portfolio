@@ -24,3 +24,28 @@
     
     color:white;
 }
+
+.footer-item {
+    padding-left: 5px;
+}
+
+.footer-logo{
+    /* height: 30px; */
+    width: 50px; 
+    margin-right: 20px;
+
+}
+.designed-by-text{
+    margin-bottom: 0 !important;
+    font-size: small;
+}
+
+.copyRight-by-text {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: small;
+}
+.developer-name{
+    color: #0099ff;
+    font-weight: 500;
+}

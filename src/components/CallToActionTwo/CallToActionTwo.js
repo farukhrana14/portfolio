@@ -6,7 +6,7 @@ import './CallToActionTwo.css';
 const CallToActionTwo = () => {
     return (
         <div className='call-to-action-two pb-5' style={{borderTop: '3px solid #0099ff', borderBottom: '3px solid #0099ff'}}>
-            <h4 className='text-white text-center pt-5'>Now What?</h4>
+            <h4 className='text-title text-center pt-5'>Now What?</h4>
             <div className='grid-container-two'>
                 <div>
                     <button className='my-btn-two btn btn-outline-dark'>Hire me</button>

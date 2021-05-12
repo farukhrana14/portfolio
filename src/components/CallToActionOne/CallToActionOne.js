@@ -6,7 +6,7 @@ import './CallToActionOne.css';
 const CallToActionOne = () => {
     return (
         <div className='call-to-action-one pb-5'>
-            <h4 className='text-white text-center pt-5'>What's Next?</h4>
+            <h4 className='text-title text-center pt-5'>What's Next?</h4>
             <div className='grid-container'>
                 <div>
                     <button className='my-btn btn btn-outline-dark'>Download Resume</button>

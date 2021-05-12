@@ -1,0 +1,48 @@
+.main-div{
+    box-sizing: border-box;
+}
+.right-text{
+    width: 100%;
+}
+.profile-pic{
+    width: 450px;
+}
+
+.my-intro-text{
+    overflow-wrap: break-word;
+}
+
+.my-li-group li::marker {
+    font-size: 150%;
+    color: #0099ff;
+  }
+
+.my-li-group li {
+    border: none;
+    color: white;
+}
+
+.li-text{
+    /* border: 1px solid #0099ff; */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.my-btn {
+    width:150px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #0099ff; 
+    
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
+    color: #fff;
+    background-color: #0099ff;
+    border-color: #0099ff; 
+    font-size: 18px;
+}

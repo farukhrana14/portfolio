@@ -1,0 +1,26 @@
+.call-to-action-two{
+    background-color: #ffffff;
+    /* height: 200px; */
+}
+
+.grid-container-two{
+    /* margin-top: 100px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    /* background-color: #0099ff; */
+    padding: 10px;
+    align-items: center;
+}
+
+.grid-container-two > div {
+    background-color: #ececec;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.my-btn-two{
+    width: 200px;
+}

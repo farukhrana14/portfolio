@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import SimpleSlider from './components/SimpleSlider/SimpleSlider';
+import MyWorks from './components/Header/MyWorks/MyWorks';
+import CallToActionOne from './components/CallToActionOne/CallToActionOne';
+import BlogWorks from './components/BlogWorks/BlogWorks';
+import CallToActionTwo from './components/CallToActionTwo/CallToActionTwo';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <SimpleSlider/>
+      <MyWorks/>
+      <CallToActionOne/>
+      <BlogWorks/>
+      <CallToActionTwo/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function SliderApp () {
     const renderSlides = () => 
         SkillData.map((skill, index)=> (
             <div key={index}>
-                <img style={{width: '300px', height: '90px'}} src={skill.logo} alt="" />
+                <img className='img-fluid' style={{width: '300px', height: '90px'}} src={skill.logo} alt="" />
             </div>
         ) );
         

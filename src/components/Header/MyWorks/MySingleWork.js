@@ -19,7 +19,7 @@ const MySingleWork = ({ project }) => {
                 <a href={gitRepo}> <FontAwesomeIcon icon={faGithub} style={{fontSize: '30px', color: '#343A40', paddingTop: '7px'}} /> </a>
                 
                     {
-                        techUsed.map(tech => <button style={{minWidth: '100px'}}  className='btn btn-outline-dark mx-1 mb-1 mt-1'>{tech}</button>)
+                        techUsed.map((tech, index) => <button key={index} style={{minWidth: '100px'}}  className='btn btn-outline-dark mx-1 mb-1 mt-1'>{tech}</button>)
                     }
                 </div>
             </div>

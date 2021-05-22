@@ -8,7 +8,7 @@ import './../../../node_modules/slick-carousel/slick/slick-theme.css';
 export default function SliderApp () {
     const renderSlides = () => 
         SkillData.map((skill, index)=> (
-            <div>
+            <div key={index}>
                 <img style={{width: '300px', height: '90px'}} src={skill.logo} alt="" />
             </div>
         ) );

@@ -1,9 +1,17 @@
 .main-div{
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    
 }
+
+
 .right-text{
-    width: 100%;
+    /* width: 50%; */
+    word-wrap: break-word;
+    
 }
+
+
 .profile-pic{
     width: 450px;
 }
@@ -15,15 +23,16 @@
 .my-li-group li::marker {
     font-size: 150%;
     color: #0099ff;
+    
   }
 
 .my-li-group li {
     border: none;
     color: white;
+    overflow-wrap: break-word;
 }
 
 .li-text{
-    /* border: 1px solid #0099ff; */
     border-radius: 5px;
     padding: 5px;
 }

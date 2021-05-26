@@ -5,13 +5,13 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
 
 const MySingleWork = ({ project }) => {
-    const { siteName, image, siteURL, description, techUsed, gitRepo } = project;
+    const { siteName, image, siteURL, gitRepo, description, techUsed, tags  } = project;
 
     return (
 
         <div className='container card-deck pt-3 pb-5' style={{ marginLeft: '-2px' }} >
 
-            <div className="card border border-primary" >
+            <div className="card border border-primary" style={{maxWidth: '300px'}} >
                 <img src={image} className='img-fluid card-img-top' alt="" style={{height: '120px', borderBottom: '1px solid #999999'}} />
                 <div className="card-body" >
                     <h4 className='card-title'><a href={siteURL}>{siteName}</a></h4>
@@ -25,8 +25,9 @@ const MySingleWork = ({ project }) => {
                     </div>
 
                     <div className='tech-used'>
+                    
                         {
-                            techUsed.map((tech, index) => <button key={index} style={{ minWidth: '100px', fontSize: '11px' }} className='btn btn-outline-dark mx-1 mb-1 mt-1'>{tech}</button>)
+                            techUsed.map((tech, index) => <button key={index+1} style={{ minWidth: '100px', fontSize: '11px' }} className='btn btn-outline-dark mx-1 mb-1 mt-1'>{tech}</button>)
                         }
                     </div>
 

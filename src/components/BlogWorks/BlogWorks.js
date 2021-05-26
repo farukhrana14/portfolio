@@ -12,12 +12,12 @@ const BlogWorks = () => {
             <div className='container-fluid'>
 
                 {
-                    BlogWorksData.map(data =>
-                        <div className='my-item'>
-                            <img className='img-fluid' src={data.image} alt='...'></img>
-                            <div className='grid-container'>
-                                <a href={data.siteURL}><h5 className='pt-5 pb-3 text-white text-center'>{data.articleName}</h5></a>
-                                <a href={data.siteURL}><span className='pt-5 pb-3 text-white text-center'><FontAwesomeIcon icon={faExternalLinkSquareAlt} className='' style={{ fontSize: '30px', color: '#0099ff' }} /></span></a>
+                    BlogWorksData.map((data, index) =>
+                        <div key={index+1} className='my-item'>
+                            <img key={index+2} className='img-fluid' src={data.image} alt='...'></img>
+                            <div key={index+3} className='grid-container'>
+                                <a key={index+4} href={data.siteURL}><h5 key={index+6} className='pt-5 pb-3 text-white text-center'>{data.articleName}</h5></a>
+                                <a key={index+5} href={data.siteURL}><span className='pt-5 pb-3 text-white text-center'><FontAwesomeIcon icon={faExternalLinkSquareAlt} className='' style={{ fontSize: '30px', color: '#0099ff' }} /></span></a>
 
                             </div>
                         </div>

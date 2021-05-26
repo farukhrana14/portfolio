@@ -1,6 +1,24 @@
 const tagData = [
-    'Express', 'React', 'React-Router', 'Firebase Hosting', 'API', 'Firebase Auth', 'Full Stack', 'Vanilla JS', 'BootStrap', 'Material UI',  
-    'Private Route', 'MongoDB'
+    'MERN', 
+    'CRUD', 
+    'MongoDB',
+    'Express',
+    'Node', 
+    'React', 
+    'API', 
+    'HTML5', 
+    'CSS', 
+    'Bootstrap', 
+    'JS', 
+    'dotenv', 
+    'firebase', 
+    'fontawesome', 
+    'jwt-decode', 
+    'react-google-maps', 
+    'react-hook-form', 
+    'react-router',
+    'react-stripe', 
+    
 ]
 
 

@@ -8,12 +8,13 @@ import BlogWorks from './components/BlogWorks/BlogWorks';
 import CallToActionTwo from './components/CallToActionTwo/CallToActionTwo';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-
+import ShareThis from './../src/components/CallToActionTwo/ShareThis';
 
 function App() {
   return (
     <div className="App container">
       <Header/>
+      <ShareThis/>
       <SimpleSlider/>
       <MyWorks/>
       <CallToActionOne/>

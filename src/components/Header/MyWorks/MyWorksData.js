@@ -118,7 +118,7 @@ const MyWorksData = [
         image: teamSelectImg,
         siteURL: 'https://select-a-team.netlify.app',
         gitRepo: 'https://github.com/farukhrana14/select-a-team-simple-react',
-        description: "A site of ICC Top Ranking players. You can create a team by selecting players and can see total budget for players. ",
+        description: "A site of ICC Top Ranking players. You can create a team by selecting players & see total budget too. ",
         techUsed:  ['MongoDB', 'Express', 'React', 'Node'],
         tags:  ['React', 'Bootstrap', 'fontawesome', 'API']
     },

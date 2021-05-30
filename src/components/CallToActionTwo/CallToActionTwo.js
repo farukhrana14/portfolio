@@ -9,7 +9,7 @@ const CallToActionTwo = () => {
             <h4 className='text-title text-center pt-5'>Now What?</h4>
             <div className='grid-container-two'>
                 <div>
-                    <button className='my-btn-two btn btn-outline-dark'>Hire me</button>
+                   <a href={'#contact-form'}><button className='my-btn-two btn btn-outline-dark'>Hire me</button></a> 
                 </div>
 
                 <div>
@@ -21,7 +21,7 @@ const CallToActionTwo = () => {
                 </div>
 
                 <div>
-                    <button className='my-btn-two btn btn-outline-dark'>Contact me</button>
+                    <a href={'#contact-form'}> <button className='my-btn-two btn btn-outline-dark'>Contact me</button></a>
                 </div>
             </div>
         </div>

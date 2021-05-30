@@ -39,9 +39,9 @@ const MyWorks = () => {
                         </Card.Header>
                         <Accordion.Collapse eventKey="0">
                             <Card.Body>
-                                <button onClick={() => handleClick('all')} className='tag-btn btn btn-primary'>See All</button>
+                                <button onClick={() => handleClick('all')} className='tag-btn text-white my-btn btn btn btn-outline-primary'>See All</button>
                                 {
-                                    tagData.map(tag => <button key={Math.random()} onClick={() => handleClick(tag)} className='tag-btn btn btn-primary'>{tag}</button>)
+                                    tagData.map(tag => <button key={Math.random()} onClick={() => handleClick(tag)} className='tag-btn text-white my-btn btn btn btn-outline-primary'>{tag}</button>)
                                 }
 
                             </Card.Body>

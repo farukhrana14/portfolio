@@ -34,7 +34,7 @@ const CallToActionOne = () => {
                 <div>
                     <button className='my-btn btn btn-outline-dark' onClick={handleClick}> { 
                     
-                    whatsAppStatus ? <WhatsAppChat />  : <FontAwesomeIcon className="icon active-icon" icon={faWhatsapp} size='2x' style={{color: 'green', zIndex: '-3'}} />
+                    whatsAppStatus ? <WhatsAppChat />  : <p>Click to WhatsApp</p>
 
                     }</button>
                    
